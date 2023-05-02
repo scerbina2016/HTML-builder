@@ -1,6 +1,5 @@
 const  path = require("path");
 const fs = require("fs");
-const fsPromises = fs.promises;
 const output = fs.createWriteStream('./05-merge-styles/project-dist/bundle.css');
 const dirSrc = "./05-merge-styles/styles/"
 let arrDest = [];

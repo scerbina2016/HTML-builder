@@ -10,3 +10,4 @@ stdin.on('data', data => {
   output.write(data);
 });
 process.on('SIGINT', () => {console.log("Thank you, everything is recorded");process.exit()});
+//

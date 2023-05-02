@@ -11,7 +11,7 @@ fs.readdir(put,{withFileTypes: true},function(err, items) {
       if(items[i].isFile()){
       console.log(path.parse(items[i].name).name+' - '+
       (path.extname(put+items[i].name).toString()).replace('.','')+' - '+Number(bum.size)/1000+'kb')};
-      if(items[i].isDirectory()){ directoryInn(put+items[i].name+'/')};
+      //if(items[i].isDirectory()){ directoryInn(put+items[i].name+'/')};
       });
      
     };
